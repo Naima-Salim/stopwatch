@@ -1,0 +1,65 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(153, 165, 42);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+#watch{
+    position: absolute;
+    width: min-content;
+    padding: 100px;
+    z-index: 3;
+}
+p{
+    font-size: 50px;
+    text-align: center;
+}
+#name{
+    margin-bottom: 50px;
+
+}
+#hr,
+ #min, 
+ #sec{
+    font-size: 80px;
+}
+#btn{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+button{
+    font-weight: 600;
+    font-size: 17px;
+    width: 100%;
+    height: 50px;
+    color: lightpink;
+    background: rgb(172, 68, 7);
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgb(20, 19, 19);
+    border-radius: 5px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    outline: none;
+}
+button:hover{
+    background: transparent;
+    color: #060a1f;
+    font-weight: 700;
+}
+
